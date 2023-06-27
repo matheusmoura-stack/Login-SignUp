@@ -1,0 +1,17 @@
+body {
+    margin: 1.6em;
+}
+
+.empresa {
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte);
+    font-size: 18px;
+}
+
+.signin {
+    background-color: var(--branco);
+}
+
+.titulo-negrito {
+    font-weight: 700;
+}

@@ -1,1 +1,16 @@
-@import url(".Styles/header.css");
+@import url("Styles/login.css");
+
+:root {
+    --cor-de-fundo: #A2CDB0;
+    --cor-primária: #FFD89C;
+    --cor-fonte: #6d8f71;
+    --laranja: #F1C27B;
+    --branco: #ffffff;
+    --preto: black;
+    --fonte-principal: 'Poppins';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+}
