@@ -143,6 +143,99 @@ a {
     font-size: 14px;
 }
 
-@media screen and (min-width:1728px) {
+.or {
+    display: none;
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        background: linear-gradient(to right, var(--cor-de-fundo) 50%, var(--background) 50%);
+    }
     
+    .empresa {
+        margin: 2em 0.5em;
+    }
+
+    .signin {
+        margin: 5em 20em;
+        padding: 3.5em 1.7em 3em 2.8em; 
+        box-shadow: 0px 0px 1em var(--cinza-claro);
+        -webkit-box-shadow: 0px 0px 1em var(--cinza-claro);
+        -moz-box-shadow: 0px 0px 1em var(--cinza-claro);
+    }
+
+    .titulo_pagina {
+        font-size: 55px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .senao {
+        margin-left:8em;
+        margin-right: 2em;
+    }
+
+    .links_login {
+        order: 1;
+        margin-top: 1em;
+        margin-right: 0.5em;
+        justify-content: space-between;
+    }
+    
+    .inputs_titulo {
+        text-align: left;
+    }
+
+    .pass {
+        padding: 0;
+    }
+
+    .input {
+        padding: 1.5em 18em 1.5em 1em;
+    }
+    
+    .inputs{
+        text-align: left;
+    }
+
+    .inputs_titulo {
+        font-size: 16px;
+    }
+
+    .forgot {
+        font-size: 13px;
+        margin: 2em 1em 0em 0em
+    }
+
+    .botao_signin {
+        margin: 2em 0.5em 1em 0.1em;
+        padding: 1.2em 8em;
+    }
+
+    .or {
+        display: block;
+        color: var(--cinza);
+        text-align: center;
+        margin: 1em 0;
+    }
+
+    .google {
+        font-size: 16px;
+        background-position: auto;
+        background-size: 1.5em;
+        padding: 1.3em 4.2em 1.3em 4.5em;
+    }
+
+    .fb, .appleid {
+        padding: 1em;
+    }
+
+    .imagem {
+        width: auto;
+        height: auto;
+        min-width: 1.5em;
+        min-height: 1.5em;
+    }
 }
