@@ -147,14 +147,27 @@ a {
     display: none;
 }
 
+.imagem_pessoa {
+    display: none;
+}
+
 @media screen and (min-width:1200px) {
     body {
         background: linear-gradient(to right, var(--cor-de-fundo) 50%, var(--background) 50%);
     }
     
+    .imagem_pessoa{
+        display: block;
+        width: 17%;
+        height: auto;
+        margin-top: 9em;
+        margin-right: 5em;
+    }
+
+
     .container {
         display: flex;
-        justify-content: center;
+        justify-content: right;
         position: relative;
       }
     
